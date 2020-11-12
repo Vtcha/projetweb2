@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Web Development Tech Challenge</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <header>
+      <div class="container">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT0mCUSy-kXnyBwRGEthaImmgkJMdF4mTta8Q&usqp=CAU"
+          alt="logo"
+          class="logo"
+        />
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html">About</a></li>
+            <li><a href="royalfamily.html">Royal Family</a></li>
+            <li><a href="royalassets.html">Royal Assets</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <br />
+
+    <!-- container avec logo-->
+
+    <h1 id="titre">Contact the Royal Kingdom</h1>
+
+    <form action="/ma-page-de-traitement" method="post">
+      <div>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="user_name" />
+      </div>
+      <div>
+        <label for="mail">e-mail :</label>
+        <input type="email" id="mail" name="user_mail" />
+      </div>
+      <div>
+        <label for="msg">Message :</label>
+        <textarea id="msg" name="user_message"></textarea>
+      </div>
+    </form>
+
+    <div class="button">
+      <button type="submit">Envoyer le message</button>
+    </div>
+
+    <!-- Connect the Javascript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
